@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/first"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Help"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/second"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Customize"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/third"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Settings"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/fourth"
+                android:icon="@drawable/baseline_home_24"
+                android:title="App Settings"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>
